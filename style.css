@@ -219,7 +219,7 @@ main {
     .right-side {
         text-align: center;
         width: 30rem;
-        margin-left: 0rem;
+        margin: 3rem;
     }
 
 }

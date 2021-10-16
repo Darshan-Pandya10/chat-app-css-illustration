@@ -216,10 +216,10 @@ main {
         background-color: hsl(270, 20%, 96%);
     }
 
-    .right-side {
+   .right-side {
         text-align: center;
-        width: 30rem;
-        margin: 3rem;
+        width: 23rem;
+        margin: 1rem;
     }
 
 }

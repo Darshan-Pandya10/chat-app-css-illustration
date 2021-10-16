@@ -1,0 +1,258 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: 'Rubik',
+        sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 150vh;
+    background-color: rgb(236, 232, 232);
+}
+
+
+.mobile {
+    height: 44.5rem;
+    width: 20rem;
+    border: 10px solid rgb(255, 255, 255);
+    border-radius: 2rem;
+    margin-left: 10rem;
+    background-color: hsl(270, 20%, 96%);
+}
+
+.right-side {
+    width: 28rem;
+    margin-right: 8rem;
+}
+
+.right-side h1 {
+    padding-bottom: 2rem;
+    font-weight: 500;
+    color: hsl(271, 36%, 24%);
+}
+
+.right-side p {
+    line-height: 2rem;
+    color: hsl(270, 7%, 64%);
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 2rem;
+    height: 7rem;
+    border-radius: 1.5rem 1.5rem 0.5rem 0.5rem;
+    background-image: linear-gradient(to left, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+
+}
+
+.notch {
+    background-color: white;
+    width: 180px;
+    height: 25px;
+    margin-left: 56px;
+    position: absolute;
+    border-radius: 0 0 1.3rem 1.3rem;
+}
+
+.header .arrow {
+    width: 10px;
+    margin-left: 1rem;
+}
+
+.header .img-1 {
+    width: 40px;
+    border-radius: 50%;
+    border: 2px solid rgb(168, 167, 167);
+}
+
+.header .person-info {
+    margin-right: 5rem;
+}
+
+.name {
+    font-size: 16px;
+    font-weight: 500;
+    color: hsl(266, 16%, 91%);
+}
+
+.profession {
+    font-size: 12px;
+    color: hsl(276, 3%, 67%);
+    font-weight: 500;
+}
+
+.header .three-dots {
+    width: 5px;
+    margin-right: 1rem;
+}
+
+.mobile .chat-window {
+    height: 31rem;
+}
+
+.chat-window .message {
+    font-size: 12px;
+    box-shadow: 1px 1px 1rem -8px grey;
+}
+
+.message-1 {
+    width: 10rem;
+    height: 3rem;
+    padding: 10px;
+    margin: 1rem 1rem -0.5rem 0.5rem;
+    border-radius: 1rem 1rem 1rem 0.5rem;
+    color: hsl(276, 55%, 52%);
+}
+
+.message-2 {
+    width: 12rem;
+    height: 3rem;
+    padding: 10px;
+    margin: 1rem 1rem 0rem 0.5rem;
+    border-radius: 1rem 1rem 1rem 0.5rem;
+    color: hsl(276, 55%, 52%);
+}
+
+.images {
+    margin: 1rem 1rem -0.5rem 6.5rem;
+}
+
+.images .dog-images {
+    width: 3.5rem;
+    padding: 0 3px;
+    border-radius: 15px;
+}
+
+.message-3 {
+    width: 12rem;
+    height: 3rem;
+    padding: 10px;
+    margin: 1rem 1rem -0.5rem 6rem;
+    border-radius: 1rem 1rem 0.5rem 1rem;
+    color: hsl(271, 15%, 43%);
+}
+
+.message-4 {
+    width: 8rem;
+    height: 2.5rem;
+    padding: 13px;
+    margin: 1rem 1rem 0.5rem 10rem;
+    border-radius: 1rem 1rem 0.5rem 1rem;
+    color: hsl(271, 15%, 43%);
+}
+
+.message-5 {
+    width: 12rem;
+    height: 4rem;
+    padding: 0.8rem;
+    margin: 1rem 1rem 0rem 0.5rem;
+    border-radius: 1rem 1rem 1rem 0.5rem;
+    color: hsl(276, 55%, 52%);
+}
+
+.price-1,
+.price-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 1rem;
+    width: 15rem;
+    height: 3.5rem;
+    margin: 0.5rem 1rem 0rem 0.5rem;
+    border-radius: 1rem 1rem 1rem 0.5rem;
+    background-image: linear-gradient(to right, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+    box-shadow: 1px 1px 1rem -8px grey;
+    color: hsl(270, 20%, 96%);
+}
+
+.radio {
+    width: 1rem;
+}
+
+.price-1 h3,
+.price-2 h3 {
+    padding-left: 3rem;
+    text-align: center;
+}
+
+.price-1 label,
+.price-2 label {
+    padding-left: 0.5rem;
+}
+
+.input-container {
+    height: 3rem;
+    margin: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 2rem;
+    box-shadow: 1px 1px 1.5rem -10px grey;
+    color: hsl(206, 6%, 79%);
+}
+
+.msg {
+    padding-left: 10px;
+    flex: 1;
+    border: 1px solid black;
+    border-radius: 1rem;
+    border: white;
+}
+
+input::placeholder {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+button {
+    background-color: hsl(271, 47%, 75%);
+    width: 3rem;
+    border-radius: 50%;
+    border: white;
+}
+
+.send-option {
+    width: 1.5rem;
+    padding: 5px;
+}
+
+@media only screen and (max-width:1111px) {
+    main {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-content: center;
+        height: 170vh;
+    }
+
+    .mobile {
+        height: 44.5rem;
+        width: 20rem;
+        border: 10px solid rgb(255, 255, 255);
+        border-radius: 2rem;
+        margin-left: 0rem;
+        background-color: hsl(270, 20%, 96%);
+    }
+
+    .right-side {
+        text-align: center;
+        width: 23rem;
+        margin: 1rem;
+    }
+
+}

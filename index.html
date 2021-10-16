@@ -35,7 +35,9 @@
   <main>
     <div class="mobile left-side">
       <!-- header starts -->
+      <div class="notch"></div>
       <div class="header">
+
         <img class="arrow" src="./images/chevron-left-solid.svg" alt="arrow">
         <img class="img-1" src="./images/avatar.jpg" alt="image of a person">
         <div class="person-info">
@@ -60,22 +62,22 @@
         <p class="message message-5"> She looks so happy! The time we discussed works. How long shall I take her out
           for?</p>
         <div class="price-1">
-          <input type="radio" id="30 mins walk" name="walk-options" value="30 mins walk">
+          <input class="radio" type="radio" id="30 mins walk" name="walk-options" value="30 mins walk">
           <label for="html">30 mins walk</label>
           <h3>$29</h3>
         </div>
 
         <div class="price-2">
-          <input type="radio" id="1 hour walk" name="walk-options" value="1 hour walk">
+          <input class="radio" type="radio" id="1 hour walk" name="walk-options" value="1 hour walk">
           <label for="html">1 hour walk</label>
           <h3>$49</h3>
         </div>
       </div>
       <!-- chat window ends -->
       <!-- type-message-box starts -->
-      <div class="type-message">
-        <p>Type a message...</p>
-        <img class="send-option" src="./images/chevron-circle-right-solid.svg" alt="">
+      <div class="input-container">
+        <input class="msg" type="text" placeholder="Type a message...">
+        <button><img class="send-option" src="./images/chevron-right-solid.svg" alt=""></button>
       </div>
       <!-- type-message-box ends -->
     </div>
@@ -87,6 +89,7 @@
         your walker and book again all through the chat.</p>
     </div>
   </main>
+
 
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
